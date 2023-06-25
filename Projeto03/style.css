@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+
+
+
+body{
+    height: 100vh;
+    background-color: rgb(10, 9, 9);
+    margin: 0;
+    background-image: url(imagens/background001.jpg);
+    background-size: 180vh;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    
+}
+
+
+
+header{
+   background-color: black;
+    color: antiquewhite;
+    padding: 20px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+   
+    
+}
+
+header > p{
+    font-size: 1em;
+}
+
+nav{
+    background-color: black;
+    color: rgb(246, 243, 243);
+    text-align: center;
+    padding: 10px;
+    
+}
+
+a{
+    color: rgb(250, 236, 236);
+}
+
+
+p.branca{
+    background-color: aliceblue;
+    margin:0;
+    color: rgb(2, 2, 2);
+    font-size: 3em;
+    height: 700px;
+    line-height: 2em;
+}
+
+#primeiro{
+    
+}
+
+#segundo{
+   background-color: rgba(0, 0, 0, 0.677);
+    color: rgb(246, 240, 240);
+    margin-top: 70px;
+    margin-left: 30px;
+    height: 700px;
+    width: 600px;
+    font-size: 3em;
+    font-weight: bolder;
+    line-height: 2em;
+}
+
+#quarto{
+    background-color: rgba(0, 0, 0, 0.368);
+    margin-top: 30px;
+    margin-left: 15px;
+    height: 800px;
+    width: 500px;
+    font-size: 3em;
+    color: bisque;
+    line-height: 2em;
+}
+
+
+
+
+
+
+footer{
+
+    background-color: black;
+    text-align: center;
+    color: rgb(253, 249, 249);
+    padding: 5px;
+   
+}
