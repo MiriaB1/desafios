@@ -1,8 +1,20 @@
 @charset "utf-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+:root{
+    --font1:Verdana, Geneva, Tahoma, sans-serif;
+    --font2:'Indie Flower', cursive;
+    --font3:'Berkshire Swash', cursive;
+  
+}
+
 *{
     margin: 0px;
     padding: 0px;
+    
 }
 
 
@@ -11,6 +23,7 @@ body{
     min-height: 100vh;
     background-color: rgb(167, 165, 165);
     margin: 0;
+    font-family: var(--font1);
     
 }
 
@@ -21,12 +34,16 @@ header{
     color: antiquewhite;
     text-align: center;
     padding: 10px;
-  
+    
+     
 }
 
 header > h1{
     padding-top: 40px;
     font-variant: small-caps;
+    font-family: var(--font3);
+    font-size: 8vw;
+    
 }
 
 header > p{
@@ -48,6 +65,9 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--font2);
+    font-weight: 800;
+    font-size: 4vw;
 
 }
 
@@ -62,7 +82,7 @@ section.imagem{
 }
 
 section.imagem > p{
-    width: 400px;
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.333);
 }
 
