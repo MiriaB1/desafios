@@ -21,7 +21,7 @@
 
 body{
     min-height: 100vh;
-    background-color: rgb(167, 165, 165);
+    background-color: rgb(244, 234, 234);
     margin: 0;
     font-family: var(--font1);
     
@@ -61,6 +61,7 @@ a:hover{
 }
 
 section{
+    
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
@@ -71,6 +72,28 @@ section{
 
 }
 
+section > p{
+    padding-bottom: 2em;
+    
+}
+
+section#img01{
+    background-image: url(imagens/background001.jpg);
+    background-position:right center;
+    background-size: cover;
+    
+}
+
+section#img02{
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-position: right center;
+    
+}
+
+
+
+
 section.normal{
     background-color: white;
     color: black;
@@ -78,12 +101,16 @@ section.normal{
 
 section.imagem{
     background-color: rgba(113, 147, 136, 0.689);
-    color: rgb(232, 58, 19);
+    color: rgb(253, 252, 251);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.566);
+    background-attachment: fixed;
 }
 
 section.imagem > p{
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.333);
+    background-color: rgba(0, 0, 0, 0.364);
+    text-shadow: 1px 1px 0px black;
+    border-radius: 2px;
 }
 
 
