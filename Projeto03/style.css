@@ -22,7 +22,6 @@
 body{
     min-height: 100vh;
     background-color: rgb(244, 234, 234);
-    margin: 0;
     font-family: var(--font1);
     
 }
