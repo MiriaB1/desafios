@@ -56,6 +56,34 @@ iframe#tell{
 }
 
 
+section#rede{
+
+    text-align: right;
+}
+
+img.log{
+    
+    margin-bottom: 30px;
+    
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.512);
+    box-sizing: border-box;
+    
+   
+    
+
+}
+
+img.log:hover{
+
+    border: 2px solid rgba(255, 255, 255, 0.56);
+    transform:translate(-3px -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.605);
+    transition: 0.3s, border 0s;
+}
+
 
 
 
