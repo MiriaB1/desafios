@@ -11,47 +11,45 @@
 </head>
 <body >
     <main>
-        
-        <img src="ima/negra1.jpeg" alt="">
-        <menu>
-            <h1>Login</h1>
-            <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente </p>
+        <section>
             
+            <div id="imagem"> </div>
             
-                
-            
-            <form action="cadastro.php" method="get">
-                    <p class="top">
-                        <label for="iemail"></label>
-                        <span  id="icon"   class="material-symbols-outlined">person</span>
-            
-                        <input type="email" name="iemail" id="mail"
-                        required
-                        placeholder=" Seu e-mail"
-                        >
-                    </p>
-                    <p class="top">
-            
-                        <label for="isenha" > <span  id="icon"   class="material-symbols-outlined"> key</span></label>
-                        <input type="password" name="senha" id="isenha" required
-                        pattern="^\d{8,30} -\d{8}$"
-                        placeholder=" Sua senha"
-            
-                        >
-                    </p>
-            </form>
-            
-                    <form action="">
-                        <p>
-                            <label for="ibutao"></label>
-            
-                                <input type="button" value="Enviar"  id="ibutao" >
-                                <label for="iesque"></label>
-                            <input type="button" value="Esquece a senha"  id="iesque">
-                        </p>
+                <div id="login">
+                    <h1>Login</h1>
+
+                    <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente </p>
+
+                    <form action="cadastro.php" method="get">
+                            <p>
+                                <label for="iemail"></label>
+                                <span  id="icon"   class="material-symbols-outlined">person</span>
+                                <input type="email" name="iemail" id="mail"
+                                required
+                                placeholder=" Seu e-mail"
+                                >
+                            </p>
+
+                            <p>
+                                <label for="isenha" > <span  id="icon"   class="material-symbols-outlined"> key</span></label>
+                                <input type="password" name="senha" id="isenha" required
+                                pattern="^\d{8,30} -\d{8}$"
+                                placeholder=" Sua senha"
+                                >
+                            </p>
                     </form>
-            </menu>
-        </div>
+                            <form action="">
+                                <p>
+                                    <label for="ibutao"></label>
+                                        <input type="button" value="Enviar"  id="ibutao" >
+                                        <label for="iesque"></label>
+                                    <input type="button" value="Esquece a senha"  id="iesque">
+                                </p>
+                            </form>
+                </div>
+            
+        </section>
+        
     </main>
 </body>
 </html>
