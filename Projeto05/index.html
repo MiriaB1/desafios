@@ -9,8 +9,11 @@
 
     <link rel="stylesheet" href="mid/style.css">
      
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
 
-     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+ 
 
 
 </head>
@@ -21,37 +24,56 @@
             <div id="imagem"> </div>
             
                 <div id="login">
-                    <h1>Login</h1>
 
+                    <h1>Login</h1>
                     <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente </p>
 
-                    <form action="cadastro.php" method="get">
-                            <p>
-                                <label for="iemail"></label>
-                                <span  id="icon"   class="material-symbols-outlined">person</span>
-                                <input type="email" name="iemail" id="mail"
-                                required
-                                placeholder=" Seu e-mail"
-                                >
-                            </p>
+                    
+                                
+     <form action="formulario.php" method="post" autocomplete="on" >
+                                    
+                                          
+         <div class="log" >
+            <span class="material-icons">person</span>
+    
+             <input type="email" name="login" id="ilogin"  placeholder=" Seu e-mail" autocomplete="email" required minlength="5" maxlength="20" >
+    
+             <label for="ilogin"> </label> 
 
-                            <p>
-                                <label for="isenha" > <span  id="icon"   class="material-symbols-outlined"> key</span></label>
-                                <input type="password" name="senha" id="isenha" required
-                                pattern="^\d{8,30} -\d{8}$"
-                                placeholder=" Sua senha"
-                                >
-                            </p>
-                    </form>
-                            <form action="">
-                                <p>
-                                    <label for="ibutao"></label>
-                                        <input type="button" value="Enviar"  id="ibutao" >
-                                        <label for="iesque"></label>
-                                    <input type="button" value="Esquece a senha"  id="iesque">
-                                </p>
-                            </form>
-                </div>
+         </div>
+     
+
+
+         <div class="log" >
+
+            <span class="material-icons">key</span>
+
+            <input type="password" name="senha" id="isenha" required minlength="5" maxlength="20"
+            autocomplete="current-password" 
+            placeholder=" Sua senha" >
+
+            <label for="isenha"> </label>
+
+         </div>
+                                          
+
+                
+                                  
+
+
+            <input type="submit" value="Enter">
+
+
+            <a class="botao" href="esqueci.html" >Esqueci a senha  
+                
+                <i class="material-icons"> mail</i>
+
+
+            </a>
+            
+      </form> 
+                                 
+                            </div>
             
         </section>
         
